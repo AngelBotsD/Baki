@@ -3,8 +3,7 @@ import fs from "fs"
 let handler = async (m, { conn }) => {
   m.react('🔊')
 
-  let texto = `
-🪙 𝐌 𝐔 𝐋 𝐓 𝐈 - 𝐌 𝐄 𝐍 𝐔́ 
+  let texto = `🪙 𝐌 𝐔 𝐋 𝐓 𝐈 - 𝐌 𝐄 𝐍 𝐔́ 
 
       「 *📚 𝘐𝘯𝘧𝘰 📚* 」  
 ┣━━━━━━━━━━━━━━┫
