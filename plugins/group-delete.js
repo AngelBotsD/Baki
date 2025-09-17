@@ -43,7 +43,7 @@ let handler = async (m, { conn, isAdmin, isBotAdmin }) => {
       await conn.sendMessage(m.chat, { react: { text: '✅', key: m.key } })
     } catch {
       return conn.sendMessage(m.chat, {
-        text: '*🥹 𝙳𝚎𝚜𝚊𝚏𝚘𝚛𝚝𝚞𝚗𝚊𝚍𝚊𝚖𝚎𝚗𝚝𝚎 𝙽𝚘 𝚜𝚎 𝚙𝚞𝚎𝚍𝚘 𝙴𝚕𝚒𝚖𝚒𝚗𝚊𝚛 𝙴𝚕 𝙼𝚎𝚗𝚜𝚊𝚓𝚎*',
+        text: '*🥹 𝙳𝚎𝚜𝚊𝚏𝚘𝚛𝚝𝚞𝚗𝚊𝚍𝚊𝚖𝚎𝚗𝚝𝚎 𝙽𝚘 𝚜𝚎 𝚙𝚞𝚍𝚘 𝙴𝚕𝚒𝚖𝚒𝚗𝚊𝚛 𝙴𝚕 𝙼𝚎𝚗𝚜𝚊𝚓𝚎*',
         contextInfo: {
           externalAdReply: {
             title: "𝙱𝙰𝙺𝙸 - 𝙱𝙾𝚃",
